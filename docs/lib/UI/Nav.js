@@ -34,33 +34,28 @@ export default class UINav extends React.Component {
         <Container>
           <NavbarToggler onClick={this.toggleNavbar} />
           <NavbarBrand className="mr-auto" tag={Link} to="/">
-            Video-React
+            二进制学院
           </NavbarBrand>
           <Collapse navbar isOpen={this.state.showNavbar}>
             <Nav navbar className="ml-sm-auto">
               <NavItem>
-                <NavLink
-                  tag={Link}
-                  className="nav-link"
-                  to="/customize/"
-                  activeClassName="active"
-                >
-                  Customize
+                <NavLink href="/#jp1">
+                  <i className="text">课程体系</i>
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink
-                  tag={Link}
-                  className="nav-link"
-                  to="/components/"
-                  activeClassName="active"
-                >
-                  Components
+                <NavLink href="/#jp2">
+                  <i className="text">师资力量</i>
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/#jp3">
+                  <i className="text">教学理念</i>
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="https://github.com/video-react/video-react">
-                  Github
+                  关于
                 </NavLink>
               </NavItem>
             </Nav>

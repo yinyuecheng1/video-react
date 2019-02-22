@@ -17,15 +17,15 @@ class Customize extends React.Component {
     this.state = {
       navItems: [
         {
-          name: 'Enable Disable Component',
+          name: 'Python语言简介',
           to: '/customize/enable-disable-components/'
         },
         {
-          name: 'Customize Component',
+          name: '你的第1段Python程序',
           to: '/customize/customize-component/'
         },
         {
-          name: 'Customize Video Source',
+          name: 'Python数据类型',
           to: '/customize/customize-source/'
         }
       ]
@@ -38,7 +38,7 @@ class Customize extends React.Component {
         <Row>
           <Col md={{ size: 3 }}>
             <div className="docs-sidebar mb-3">
-              <h5>Customize</h5>
+              <h5>Python基础课程</h5>
               <Nav className="flex-column">
                 {this.state.navItems.map(item => (
                   <CustomizeLink key={item.name} item={item} />

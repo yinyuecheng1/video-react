@@ -11,7 +11,7 @@ export default class EnableDisableComponentPage extends React.Component {
     return (
       <div>
         <Helmet title="Enable & disable default components" />
-        <h3>Enable & Disable Default Components</h3>
+        <h3>语言简介 and Pycharm安装</h3>
         <p>The components can be enabled or disabled.</p>
         <div className="docs-example">
           <EnableDisableComponentExample />
